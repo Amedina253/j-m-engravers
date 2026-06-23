@@ -326,6 +326,53 @@
       line-height: 1.7;
     }
 
+    /* TESTIMONIALS */
+    #testimonials {
+      background: var(--white);
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .testimonial-card {
+      background: var(--cream);
+      border-left: 4px solid var(--brass);
+      padding: 2rem;
+      border-radius: 2px;
+    }
+
+    .testimonial-text {
+      font-size: 0.95rem;
+      color: var(--charcoal);
+      font-weight: 300;
+      line-height: 1.8;
+      margin-bottom: 1.25rem;
+      font-style: italic;
+    }
+
+    .testimonial-author {
+      font-weight: 600;
+      color: var(--charcoal);
+      font-size: 0.9rem;
+    }
+
+    .testimonial-location {
+      font-size: 0.8rem;
+      color: var(--slate);
+      font-weight: 300;
+      margin-top: 0.25rem;
+    }
+
+    .stars {
+      color: var(--brass);
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+      letter-spacing: 0.1em;
+    }
+
     /* WHY */
     #why {
       background: var(--cream);
@@ -618,7 +665,7 @@
     <a href="#" class="nav-logo">J & M Engravers</a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#services">Services</a></li>
-      <li><a href="#why">About</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
       <li><a href="#contact">Hours</a></li>
       <li><a href="#appointment" class="nav-cta">Schedule</a></li>
     </ul>
@@ -726,6 +773,54 @@
           </svg>
           <h3>Custom Artwork</h3>
           <p>Logos, crests, and illustrations transferred precisely onto metal, wood, glass, and acrylic surfaces.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="section-inner">
+      <p class="section-tag reveal">What Customers Say</p>
+      <h2 class="section-title reveal">Trusted by Austin<br />for Over 50 Years</h2>
+      <p class="section-lead reveal">Read what our customers have to say about working with J & M Engravers.</p>
+
+      <div class="testimonials-grid reveal">
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"If you ever need anything engraved, this is the only place to use! Amazing customer service and quality and so incredibly fast."</p>
+          <div class="testimonial-author">Melanie R.</div>
+          <div class="testimonial-location">Austin, TX</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"I have depended on J & M engravers for 29 years and counting, while I have been with three different companies. They are fast, accommodating, accurate and reasonably priced...what more could you ask for!!"</p>
+          <div class="testimonial-author">Bill W.</div>
+          <div class="testimonial-location">Austin, TX • Wattinger Service Company, Inc.</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"J & M is the best! Their prices are excellent and they deliver when they say they will. Scott assured me he could have my rush order ready by the deadline. Use them for all of your engraving."</p>
+          <div class="testimonial-author">Candi W.</div>
+          <div class="testimonial-location">Bayside, TX</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Great place. Very reasonable prices and very expeditious. I highly recommend them."</p>
+          <div class="testimonial-author">Jared M.</div>
+          <div class="testimonial-location">Austin, TX</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"My company buys 5-200 name tags for equipment at a time. J&M is our go to engraver. They are FAST, often with same day or next day turn around. This is a big deal because our former engraver would take a week or two."</p>
+          <div class="testimonial-author">T W.</div>
+          <div class="testimonial-location">Cedar Park, TX</div>
         </div>
 
       </div>
